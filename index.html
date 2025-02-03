@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangled Tree Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <svg id="lines"></svg>
+        <!-- Nodes will be added here -->
+    </div>
+    <div class="controls">
+        <button onclick="undo()">Undo (Ctrl+Z)</button>
+        <button onclick="redo()">Redo (Ctrl+Y)</button>
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
